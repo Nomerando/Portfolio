@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*background*/
+.main{
+    width: 100%;
+    background: url(pic/BGG.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.main2{
+    width: 100%;
+    background: url(pic/BGG2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.main3{
+    width: 100%;
+    background: url(pic/contact.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.socials{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;       /* allows manual positioning */
+    top: 40%;                 /* move vertically to middle */
+    left: 1%;                /* move horizontally to middle */
+
+
+}
+.pictures {
+    margin-top: 35px;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    display: flex;
+    border-radius: 10px; /* optional: rounded corners */
+}
+
+nav .buttons ul {
+    display: flex;
+    gap: 300px;
+}
+
+
+nav .buttons{
+    cursor: pointer;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+/*Logo sa gilid*/
+nav .buttons ul:last-child {
+    color: rgb(224, 211, 211);
+    background-color: rgb(12, 15, 31);
+    padding: 0px 2px;
+    border-radius: 5px;
+}   
+
+/*list on the ul part sa html*/
+ul{
+    margin-top: -0.5%;
+    margin-right: -7%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+/* design on the ul part*/
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(154, 174, 234);
+    margin-top: -10%;
+    transition: .2s ease;
+}
+
+ul li a:hover{
+    color: rgb(164, 29, 16);
+}
+
+.Hello {
+    text-align: left;       /* centers all text inside */
+    width: 100%;              /* makes sure it spans full screen */
+    position: absolute;       /* allows manual positioning */
+    top: 46%;                 /* move vertically to middle */
+    left: 53%;                /* move horizontally to middle */
+    transform: translate(-50%, -50%);  /* perfect centering */
+}
+
+.Hello2 {
+    text-align: center;       /* centers all text inside */
+    width: 90%;              /* makes sure it spans full screen */
+    position: absolute;       /* allows manual positioning */
+    top: 49%;                 /* move vertically to middle */
+    left: 50%;                /* move horizontally to middle */
+    transform: translate(-50%, -50%);  /* perfect centering */
+    color: rgb(57, 113, 139);
+    transform: .4s ease;
+}
+
+.img {
+  width: 200px;        /* adjust size */
+  margin-top: 55px;    /* spacing above */
+  display: auto;
+  margin-left: auto;
+  margin-right: auto;  /* centers the image */
+  border-radius: 10px; /* optional: rounded corners */
+}
+
+
+nav .Hello {
+    text-align: left;       /* centers all text inside */
+    width: 100%;              /* makes sure it spans full screen */
+    position: absolute;       /* allows manual positioning */
+    top: 10%;                 /* move vertically to middle */
+    left: 53%;                /* move horizontally to middle */
+    transform: translate(-50%, -50%);  /* perfect centering */
+}
+
+.Hello h1{
+    margin-top: -10px;
+    font-size: 65px;
+    font-family: FreeMono, monospacey;
+    color: rgba(71, 106, 143, 0.691);
+}
+
+.Hello h2{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: 15px;
+    color: rgb(240, 239, 241);
+}
+.Hello span{
+    color: rgb(197, 20, 20);
+}
+
+.Hello a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.Hello a:hover{
+    background: blue;
+}
+ 
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    border-bottom: 0;
+}
+
+.icons {
+    position: absolute;
+    top: 70%;                 /* move vertically to middle */
+    left: 10%;                /* move horizontally to middle */
+    display: flex;
+    gap: 500px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgb(99, 136, 167);
+}
+
+
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: color rgb(5, 36, 102);
+    margin-right: 60px;
+    font-size: 40px;
+    transition: .4 ease;
+}
+
+.icons ion-icon:hover{
+    color: rgb(209, 59, 59)
+
+} 
+
+.image-right {
+    position: absolute;
+    right: 40px;        /* distance from the right side */
+    top: 350px;           /* moves the image UP above the text */
+    transform: translateY(-50%);
+}
+
+.image-right img {
+    width: 400px;              /* adjust image size */
+    border-radius: 20px;       /* optional rounded corners */
+}
