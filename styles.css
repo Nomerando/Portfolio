@@ -10,7 +10,7 @@ html {
 /*background*/
 .main{
     width: 100%;
-    background: url(pic/BGG.PNG);
+    background: url(pic/BGG.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
